@@ -1,0 +1,30 @@
+{
+  "name": "react-native-open-file",
+  "version": "1.0.0",
+  "description": "Open local and remote files with default OS behavior in react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wix/react-native-open-file.git"
+  },
+  "author": {
+    "name": "Aaron Greenwald",
+    "email": "aarong@wix.com"
+  },
+  "keyword": [
+    "react-native",
+    "files"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wix/react-native-open-file/issues"
+  },
+  "homepage": "https://github.com/wix/react-native-open-file#readme",
+  "peerDependencies": {
+    "react": "^15.2.0",
+    "react-native": "^0.29.0"
+  }
+}
