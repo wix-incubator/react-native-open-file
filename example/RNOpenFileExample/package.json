@@ -8,6 +8,7 @@
   "dependencies": {
     "react": "15.2.0",
     "react-native": "^0.29.0",
+    "react-native-fs": "^1.5.1",
     "react-native-open-file": "^1.0.0"
   }
 }

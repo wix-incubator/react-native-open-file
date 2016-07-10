@@ -9,29 +9,40 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  TouchableHighlight
 } from 'react-native';
 import OpenFile from 'react-native-open-file';
+import fs from 'react-native-fs';
 
-class RNOpenFileExample extends Component {
+const downloadAndOpen = (url, name, type) => {
+  const destination = fs.TemporaryDirectoryPath + name + '.' + type;
+  fs.downloadFile({
+    fromUrl: url,
+    toFile: destination,
+    background: false,
+    progressDivider: 10,
+    begin: () => console.log('starting download'),
+    progress: ({contentLength, bytesWritten}) => console.log('download progress: ', 100.0 * bytesWritten / contentLength)
+  }).then(() => OpenFile.open(destination));
+};
 
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
+const files = [
+  {type: 'jpg', name: 'Monkey', path: 'http://data.whicdn.com/images/16584615/thumb.jpg'},
+  {type: 'pdf', name: 'Random PDF', path: 'http://www.pdf995.com/samples/pdf.pdf'}
+];
+
+const RNOpenFileExample = props =>
+  <View style={styles.container}>
+    {files.map(file =>
+      <TouchableHighlight key={file.name} onPress={() => downloadAndOpen(file.path, file.name, file.type)}>
         <Text style={styles.instructions}>
-          To get started, edit index.ios.js
+          Click to download and view {file.type}
         </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
-    );
-  }
-}
+      </TouchableHighlight>
+    )}
+  </View>
+;
 
 const styles = StyleSheet.create({
   container: {
