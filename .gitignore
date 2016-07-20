@@ -38,5 +38,6 @@ jspm_packages
 
 #ios
 DerivedData
+xcuserdata
 
 .idea/
