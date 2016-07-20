@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "11926AF6331A725FA85A8B75950825A1BA2A9996",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "11926AF6331A725FA85A8B75950825A1BA2A9996" : 0,
+    "1883EAB9B734C8DE71A408A19D62663A6E6AE921" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F0DBD21B-304E-4968-9850-C02CD21BD1FA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "11926AF6331A725FA85A8B75950825A1BA2A9996" : "RNDocumentInteractionController\/",
+    "1883EAB9B734C8DE71A408A19D62663A6E6AE921" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RNDocumentInteractionController",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RNDocumentInteractionController.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:wix\/react-native-document-interaction-controller.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "11926AF6331A725FA85A8B75950825A1BA2A9996"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:wix\/react-native-open-file.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1883EAB9B734C8DE71A408A19D62663A6E6AE921"
+    }
+  ]
+}
