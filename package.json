@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/wix/react-native-open-file#readme",
   "peerDependencies": {
-    "react-native": "^0.25.0"
+    "react-native": ">=0.25.0"
   }
 }
