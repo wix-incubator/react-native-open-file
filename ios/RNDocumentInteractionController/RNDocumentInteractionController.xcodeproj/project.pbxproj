@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9FE2653C1D2BC7F300445286 /* RNDocumentInteractionController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9FE2653B1D2BC7F300445286 /* RNDocumentInteractionController.h */; };
+		9FE2653C1D2BC7F300445286 /* RNDocumentInteractionController.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 9FE2653B1D2BC7F300445286 /* RNDocumentInteractionController.h */; };
 		9FE2653E1D2BC7F300445286 /* RNDocumentInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2653D1D2BC7F300445286 /* RNDocumentInteractionController.m */; };
 /* End PBXBuildFile section */
 
@@ -134,14 +134,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9FE265361D2BC7F300445286 /* CopyFiles */ = {
+		9FE265361D2BC7F300445286 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				9FE2653C1D2BC7F300445286 /* RNDocumentInteractionController.h in CopyFiles */,
+				9FE2653C1D2BC7F300445286 /* RNDocumentInteractionController.h in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -222,7 +223,7 @@
 			buildPhases = (
 				9FE265341D2BC7F300445286 /* Sources */,
 				9FE265351D2BC7F300445286 /* Frameworks */,
-				9FE265361D2BC7F300445286 /* CopyFiles */,
+				9FE265361D2BC7F300445286 /* Copy Files */,
 			);
 			buildRules = (
 			);
