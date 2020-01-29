@@ -25,6 +25,15 @@ RCT_EXPORT_METHOD(open: (NSURL *)path)
     return [[[[UIApplication sharedApplication] delegate] window] rootViewController];
 }
 
++ (BOOL)requiresMainQueueSetup
+{
+    return NO;
+}
+
+- (dispatch_queue_t)methodQueue
+{
+    return dispatch_get_main_queue();
+}
 
 @end
 
