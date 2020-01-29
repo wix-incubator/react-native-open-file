@@ -1,6 +1,6 @@
 {
   "name": "react-native-open-file",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Open local and remote files with default OS behavior in react native",
   "main": "index.js",
   "scripts": {
