@@ -4223,6 +4223,10 @@ react-is@^16.6.0-alpha.8af6728:
   version "16.6.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-is/-/react-is-16.6.0.tgz#456645144581a6e99f6816ae2bd24ee94bdd0c01"
 
+react-native-open-file@^1.0.6:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/react-native-open-file/-/react-native-open-file-1.0.9.tgz#4e6cb04e737594f6c0a6461b3d58d3fdb9c6fcaa"
+
 react-native@0.57.4:
   version "0.57.4"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-native/-/react-native-0.57.4.tgz#cb7ba78e8be420737868fa9a97caa897a534c893"
@@ -5349,8 +5353,8 @@ xtend@~4.0.1:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
 
 yallist@^2.1.2:
   version "2.1.2"
