@@ -4223,6 +4223,10 @@ react-is@^16.6.0-alpha.8af6728:
   version "16.6.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-is/-/react-is-16.6.0.tgz#456645144581a6e99f6816ae2bd24ee94bdd0c01"
 
+react-native-open-file@^1.0.6:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/react-native-open-file/-/react-native-open-file-1.0.9.tgz#4e6cb04e737594f6c0a6461b3d58d3fdb9c6fcaa"
+
 react-native@0.57.4:
   version "0.57.4"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-native/-/react-native-0.57.4.tgz#cb7ba78e8be420737868fa9a97caa897a534c893"
@@ -5071,8 +5075,8 @@ typedarray@^0.0.6:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
 ua-parser-js@^0.7.18:
-  version "0.7.19"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ua-parser-js/-/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
 
 uglify-es@^3.1.9:
   version "3.3.9"
