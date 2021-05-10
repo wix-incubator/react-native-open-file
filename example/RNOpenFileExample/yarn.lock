@@ -2397,8 +2397,8 @@ home-or-tmp@^3.0.0:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/home-or-tmp/-/home-or-tmp-3.0.0.tgz#57a8fe24cf33cdd524860a15821ddc25c86671fb"
 
 hosted-git-info@^2.1.4:
-  version "2.7.1"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
 
 html-encoding-sniffer@^1.0.2:
   version "1.0.2"
@@ -4222,6 +4222,10 @@ react-devtools-core@^3.4.0:
 react-is@^16.6.0-alpha.8af6728:
   version "16.6.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-is/-/react-is-16.6.0.tgz#456645144581a6e99f6816ae2bd24ee94bdd0c01"
+
+react-native-open-file@^1.0.6:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/react-native-open-file/-/react-native-open-file-1.0.9.tgz#4e6cb04e737594f6c0a6461b3d58d3fdb9c6fcaa"
 
 react-native@0.57.4:
   version "0.57.4"
