@@ -4016,8 +4016,8 @@ path-key@^2.0.0, path-key@^2.0.1:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
 
 path-parse@^1.0.5:
-  version "1.0.6"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
 
 path-type@^1.0.0:
   version "1.1.0"
@@ -4222,6 +4222,10 @@ react-devtools-core@^3.4.0:
 react-is@^16.6.0-alpha.8af6728:
   version "16.6.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-is/-/react-is-16.6.0.tgz#456645144581a6e99f6816ae2bd24ee94bdd0c01"
+
+react-native-open-file@^1.0.6:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/react-native-open-file/-/react-native-open-file-1.0.9.tgz#4e6cb04e737594f6c0a6461b3d58d3fdb9c6fcaa"
 
 react-native@0.57.4:
   version "0.57.4"
